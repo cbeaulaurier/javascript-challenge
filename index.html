@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang"en">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +15,7 @@
             <div class="page-header">
                 <img src="img/mail.png" alt="mail icon" class="pull-right">
                 <h1>Sign Up for Our Mailing List</h1>
-                <p class="lead">To recieve useless marketing materials for the rest of your natural life, please complete this form!</p>
+                <p class="lead">To receive useless marketing materials for the rest of your natural life, please complete this form!</p>
             </div>
 
             <form name="signup" id="signup" action="http://info343.ischool.uw.edu:8888/signup" method="post" 
@@ -114,6 +114,25 @@
             </form>
         </div> <!-- .container -->
 
+        <div class="modal fade" id="confirm-exit-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Are You Sure?</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Are you sure you want to leave? Please don't leave!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Sure, I'll Stay</button>
+                        <button type="button" class="btn btn-primary" id="confirm-exit-button">I'm Leaving!</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         <script src="js/us-states.js"></script>
         <script src="js/signup.js"></script>
     </body>
